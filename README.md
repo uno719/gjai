@@ -1,6 +1,7 @@
 # gjai
 # 🐷 무지출챌린지(팀명: 얼죽코)
 ![image](https://user-images.githubusercontent.com/25995055/178401309-2a2ffc86-ef45-439b-bfd8-6978312100bc.png)
+![KakaoTalk_20220707_185723374](https://user-images.githubusercontent.com/99772968/189066562-f337e9e7-a17d-424d-af27-f1be1f5422ab.png)
 
 
 ## 👀 서비스 소개
