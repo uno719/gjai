@@ -1,24 +1,23 @@
-# gjai
-# 🐷 무지출챌린지(팀명: 얼죽코)
-![image](https://user-images.githubusercontent.com/25995055/178401309-2a2ffc86-ef45-439b-bfd8-6978312100bc.png)
+# 🥶 얼어죽어도 코딩(팀명: 얼죽코)
+![제목 없음](https://user-images.githubusercontent.com/101463273/189017035-e5c9352f-c883-4d9f-80c7-8f6fe2b13224.png)
 
 
-
-## 👀 서비스 소개
-* 서비스명:  꽃 개화 시기별 우리 지역 근처 데이트/드라이브 추천 장소 및 꽃 축제 추천 
-* 서비스설명: 
+## 👽 서비스 소개
+* 서비스명:  MZ세대를 중심으로 유행중인 무지출챌린지 통합 지원 웹사이트 구현
+* 개발 목표: 사용자의 무지출챌린지를 효과적으로 달성할 수 있도록 도와준다. 나와 챌린지 목표 금액이 비슷한 사람들과 매칭되어 챌린지 달성이 가능하도록 한다.
+정부 지원금이난 절약 정보, 단체에서 진행하는 무료 이벤트를 사용자 간 공유할 수 있도록 한다. 사용자가 주로 어디에 돈을 쓰는지 지출 항목을 분류하고 차트로 시각화하여 지출 관리를 도운다.
 <br>
 
 ## 📅 프로젝트 기간
-2022.04.22 ~ 2022.06.03 (6주)
+2022.08.08 ~ 2022.09.07 (4주)
 <br>
 
 ## ⭐ 주요 기능
-* 기능1
-* 기능2
-* 기능3
-* 기능4
-* 기능5
+* 챌린지 목표 금액 입력
+* 목표 금액에 따른 레벨 분류
+* 챌린지 진행
+* 소비 패턴 확인
+* 게시판을 통한 정보 공유
 <br>
 
 ## ⛏ 기술스택
@@ -40,15 +39,12 @@
         <td>라이브러리</td>
         <td>
             <img src="https://img.shields.io/badge/BootStrap-7952B3?style=for-the-badge&logo=BootStrap&logoColor=white"/>
-            <img src="https://img.shields.io/badge/KakaoMap-FFCD00?style=for-the-badge&logo=Kakao&logoColor=white"/>
         </td>
     </tr>
     <tr>
         <td>개발도구</td>
         <td>
             <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse&logoColor=white"/>
-            <img src="https://img.shields.io/badge/RaskpberryPi-A22846?style=for-the-badge&logo=RaskpberryPi&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
             <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
         </td>
     </tr>
@@ -61,7 +57,6 @@
     <tr>
         <td>데이터베이스</td>
         <td>
-            <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=white"/>
             <img src="https://img.shields.io/badge/Oracle 11g-F80000?style=for-the-badge&logo=Oracle&logoColor=white"/>
         </td>
     </tr>
@@ -82,29 +77,52 @@
 <br>
 
 ## 📌 SW유스케이스
-![image](https://user-images.githubusercontent.com/25995055/178401023-9a015e66-aa6e-4d74-8564-9b1f9d306649.png)
+![us케이스](https://user-images.githubusercontent.com/101463273/189058538-62776cb8-1eb9-4088-b21d-f89a68cc2c04.png)
+
 <br>
 
 ## 📌 서비스 흐름도
-![image](https://user-images.githubusercontent.com/25995055/178401048-d6484bda-a2d7-40e1-998b-2bd195cd9f89.png)
+![서비스흐름도](https://user-images.githubusercontent.com/101463273/189019753-1cbc1489-5b71-4980-9c90-6fbec84b6923.png)
 <br>
 
 ## 📌 ER다이어그램
-![image](https://user-images.githubusercontent.com/25995055/169925318-102784c2-893f-4fd7-bec9-a54c44b669d4.png)
+![db](https://user-images.githubusercontent.com/101463273/189014345-19668b19-1a6e-43bb-8f2b-97d5075e86d5.png)
+<br>
 <br>
 
 ## 🖥 화면 구성
 
-### 로그인/회원가입/회원괸리/회원수정/회원탈퇴
-![image](https://user-images.githubusercontent.com/25995055/178401098-95f15a0e-a2de-415e-83d5-883bb4cb0656.png)
+### 메인화면/지출입력
+![로그인후_메인](https://user-images.githubusercontent.com/101463273/189025954-c0e38b77-22ef-4a1f-acc4-673b246c407d.png)
+![메인_지출입력](https://user-images.githubusercontent.com/101463273/189026408-de883063-86b4-439b-a881-ccbd9862c963.png)
+<br>
 <br>
 
-### 옷 정보/코디 추천(날씨, 팁, 오늘의 코디, 참고할 수 있는 코디)
-![image](https://user-images.githubusercontent.com/25995055/178401127-287e6de2-4396-49fc-a107-59c4d5cd55c7.png)
+### 회원가입/로그인/회원수정/회원탈퇴
+![회원가입](https://user-images.githubusercontent.com/101463273/189025967-c122cfad-e733-4d50-9028-cc0752a82e0e.png)
+![로그인](https://user-images.githubusercontent.com/101463273/189025958-98788b95-7220-4b76-a1e8-6902de36515e.png)
+![마이페이지1](https://user-images.githubusercontent.com/101463273/189025986-299441f3-0baa-4832-ae57-76a00d685f3e.png)
+![마이페이지2](https://user-images.githubusercontent.com/101463273/189025991-5f127c44-b21a-4834-bfb6-554949c81649.png)
+<br>
 <br>
 
-### 일정/고객센터
-![image](https://user-images.githubusercontent.com/25995055/178401150-861f0e93-0f40-4fae-98c1-2099bf513c8d.png)
+### 마이챌린지
+![마이챌린지](https://user-images.githubusercontent.com/101463273/189026466-9c941f79-3d8b-4f68-9207-625b977a304d.png)
+<br>
+
+### 게시판
+![자유게시판](https://user-images.githubusercontent.com/101463273/189026511-749c0978-cc67-4da1-8d51-be34f43cc1b1.png)
+![Uploading 게시글.png…]()
+![게시글](https://user-images.githubusercontent.com/101463273/189026760-37616a6e-4342-4d48-b13d-e1cf886f3b9a.png)
+![게시글작성](https://user-images.githubusercontent.com/101463273/189026529-806cdb5a-2b51-40c2-973e-c21b6fc95531.png)
+![게시글수정](https://user-images.githubusercontent.com/101463273/189026523-0ed330f0-b4f8-4b1f-b6f4-5f8155c26c00.png)
+<br>
+<br>
+
+### 레벨 게시판/세이브 포인트 게시판
+![레벨게시판](https://user-images.githubusercontent.com/101463273/189026596-79295e41-40df-4b86-ac24-fea832ab2dcc.png)
+![절약정보게시판](https://user-images.githubusercontent.com/101463273/189026622-39ea74db-5ee4-444d-8e53-cf24964c4a0e.png)
+<br>
 <br>
 
 ## 👨‍👩‍👦‍👦 팀원 역할
@@ -115,36 +133,52 @@
     <td align="center"><img src="https://mblogthumb-phinf.pstatic.net/20160127_177/krazymouse_1453865104404DjQIi_PNG/%C4%AB%C4%AB%BF%C0%C7%C1%B7%BB%C1%EE_%B6%F3%C0%CC%BE%F0.png?type=w2" width="100" height="100"/></td>
     <td align="center"><img src="https://i.pinimg.com/236x/ed/bb/53/edbb53d4f6dd710431c1140551404af9.jpg" width="100" height="100"/></td>
     <td align="center"><img src="https://pbs.twimg.com/media/B-n6uPYUUAAZSUx.png" width="100" height="100"/></td>
+    <td align="center"><img src="https://pbs.twimg.com/media/B-n6uPYUUAAZSUx.png" width="100" height="100"/></td>
+
   </tr>
   <tr>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
-    <td align="center"><strong>홍O동</strong></td>
+    <td align="center"><strong>김유리</strong></td>
+    <td align="center"><strong>이윤호</strong></td>
+    <td align="center"><strong>백근만</strong></td>
+    <td align="center"><strong>김재강</strong></td>
+    <td align="center"><strong>박혜민</strong></td>
+    <td align="center"><strong>김민우</strong></td>
+
   </tr>
   <tr>
     <td align="center"><b>Frontend</b></td>
+    <td align="center"><b>Backend</b></td>
     <td align="center"><b>Frontend</b></td>
     <td align="center"><b>Backend</b></td>
     <td align="center"><b>Backend</b></td>
-    <td align="center"><b>Deep Learning</b></td>
+    <td align="center"><b>Backend</b></td>
+
+  </tr>
+    <tr>
+    <td align="center"><b>팀장, 게시판 서비스 구현<br>레벨 화면 구현<br>DB 설계</b></td>
+    <td align="center"><b>게시판 서비스 구현<br>달성도 차트 구현<br>DB 설계</b></td>
+    <td align="center"><b>회원 관리<br>마이챌린지<br>메인화면 구현<br>DB 설계</b></td>
+    <td align="center"><b>회원 관리<br>마이챌린지<br>메인화면 구현<br>DB 설계</b></td>
+    <td align="center"><b>회원 관리<br>마이챌린지<br>메인화면 구현<br>DB 설계</b></td>
+    <td align="center"><b>게시판 서비스<br>레벨 화면 구현<br>DB 설계</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/kimpizza" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/uno719" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/100geun10000" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/jaegangkim" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/bingomangsoo" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/Tiel0043" target='_blank'>github</a></td>
+
   </tr>
 </table>
 
 ## 🤾‍♂️ 트러블슈팅
-개념: 문제 해결을 위해 문제의 원인을 논리적이고 체계적으로 찾는 일이며 제품이나 프로세스의 운영을 재개
-프로젝트 진행하는 동안 발생했던 이슈 중 가장 기억에 남았던 문제와 해결 프로세스 나열(2~5가지 정도)
   
-* 문제1<br>
- 문제점 설명 및 해결방안
+* DB 설계 문제<br>
+ DB 테이블 설계가 막막했다.
  
-* 문제2<br>
- 문제점 설명 및 해결방안
+* 프로젝트 통합 문제<br>
+ git lab을 이용하여 프로젝트를 통합하였는데 git lab 사용이 처음이어서 익숙하지 않았고, merge 이후에는 충돌 문제가 발생하였다.
+
+
